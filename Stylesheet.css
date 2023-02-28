@@ -1,0 +1,120 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.container-1 {
+  background-image: url(images/pexels-kellie-churchman-1001682\(1\).jpg);
+  background-position: left;
+  background-color: #5d4037;
+  padding: 3rem 1rem 622px;
+
+}
+a{text-decoration: none;}
+
+.round-image {
+  border-radius: 290486px;
+  -webkit-border-radius: 290486px;
+  -moz-border-radius: 290486px;
+  -ms-border-radius: 290486px;
+  -o-border-radius: 290486px;
+  height: 128px;
+    width: 131px;
+  display: block;
+  margin: auto;
+
+}
+li{
+  list-style: none;
+}
+header {
+  height: 600px;
+  max-height: 585px;
+  color: white;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-variant: small-caps;
+width: 100%;
+}
+.icon-box{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15em;
+}
+.icon{
+  font-size: 2.5em;
+  color: white;
+  text-align: center;
+}
+.down{
+ position: absolute;
+ bottom: 5px;
+ right: 10px;
+}
+.down-1{
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+ }
+ .square{
+  border: 6em solid #1d3557;
+  border-image: url(images/);
+height: auto;
+
+ }
+ .square-hijo{
+  padding: 10em;
+
+ }
+@keyframes mover{
+  0%{
+    transform:translate(100%)
+  }
+}
+ @media (max-width: 513px){
+  .square-hijo{
+  padding-left: 1em;
+  }
+ }
+ @media(max-width: 415px){
+.lista{
+  word-wrap: break-word;
+}
+ }
+ .instagram-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #333;
+  transition: all 0.3s ease;
+}
+
+.instagram-button:hover {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.transparent-btn {
+  background-color: transparent;
+  color: #fff; /* color del texto */
+  border: 2px solid #fff; /* ancho y color del borde */
+  border-radius: 20px; /* radio de las esquinas del borde */
+  padding: 10px 20px; /* relleno del botón */
+  font-size: 18px; /* tamaño de fuente */
+  text-transform: uppercase; /* convierte todo el texto en mayúsculas */
+  letter-spacing: 2px; /* separación entre letras */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* sombra del botón */
+  transition: all 0.3s ease; /* efecto de transición al pasar el cursor sobre el botón */
+}
+
+.transparent-btn:hover {
+  background-color: #fff; /* color de fondo al pasar el cursor sobre el botón */
+  color: #3498db; /* color del texto al pasar el cursor sobre el botón */
+}
+
